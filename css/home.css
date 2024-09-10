@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: dodgerblue;
+} */
+
+header{
+    background-color: rgb(87, 86, 86);
+    height: 100px;
+    width: 100%;
+}
+
+.layout-grid{
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 992px;
+    border: 3px solid white;
+}
+
+header nav{
+    border: 3px solid whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color .5s;
+    color: white;
+    font-size: 90%;
+}
+
+section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.bibliotec-flex .titulo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.bibliotec-flex h1{
+    width: 100%;
+    /* padding-bottom: 120px; */
+    font-family: "montserrat",system-ui;
+    /* font-size: 30px;
+    font-weight: 600; */
+    margin-bottom: 25px;
+    text-align: center ;
+
+}
+
+
+.bibliotec-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bibliotec-flex .titulo hr{
+    width: 30%;
+    border: 3px solid #2fd6cb;
+    margin-bottom: 40px;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 405px;
+    width: 285px;
+    border: 3px solid black;
+    border-radius: 10%;
+    flex-direction: column;    
+}
+
+.livro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    margin-top: -60px;
+    border-radius: 50% ;
+    border: 5px solid #2fd6cb;
+    background-color: white;
+}
